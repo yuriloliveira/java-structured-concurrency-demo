@@ -1,0 +1,12 @@
+{
+  "request": {
+    "urlPattern": "/users/[^/]+/followers",
+    "method": "GET"
+  },
+  "response": {
+    "bodyFileName": "followers.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

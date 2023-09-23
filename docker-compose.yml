@@ -1,0 +1,10 @@
+services:
+  stubs:
+    image: wiremock/wiremock:3.0.0-1
+    ports:
+      - 8090:8080
+    volumes:
+      - ./wiremock:/home/wiremock
+    command:
+      - -verbose
+      - -global-response-templating

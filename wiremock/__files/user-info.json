@@ -1,0 +1,5 @@
+{
+  "userId": "123456789",
+  "username": "{{request.path.[1]}}",
+  "birthDate": "1989-12-05"
+}

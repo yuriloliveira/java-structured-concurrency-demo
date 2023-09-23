@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPattern": "/users/[^/]+/followers-count",
+    "method": "GET"
+  },
+  "response": {
+    "bodyFileName": "followers-count.json",
+    "transformers": ["response-template"],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

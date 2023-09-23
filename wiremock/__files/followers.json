@@ -1,0 +1,16 @@
+[{
+  "userId": "follower-user-id-1",
+  "username": "follower-1"
+}, {
+  "userId": "follower-user-id-2",
+  "username": "follower-2"
+}, {
+  "userId": "follower-user-id-3",
+  "username": "follower-3"
+}, {
+  "userId": "follower-user-id-4",
+  "username": "follower-4"
+}, {
+  "userId": "follower-user-id-5",
+  "username": "follower-5"
+}]

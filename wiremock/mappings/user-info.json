@@ -1,0 +1,13 @@
+{
+  "request": {
+    "urlPattern": "/users/[^/]+",
+    "method": "GET"
+  },
+  "response": {
+    "bodyFileName": "user-info.json",
+    "transformers": ["response-template"],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
